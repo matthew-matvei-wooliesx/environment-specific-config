@@ -4,9 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This variation relies on the `--dart-define` command-line argument to define compile-time environment variables. The
-default values could be used for local development purposes, and CI/CD tools can override the values depending on the
-environment being deployed to.
+This configuration strategy relies on the `--dart-define` command-line argument to define compile-time environment 
+variables. The default values could be used for local development purposes, and CI/CD tools can override the values 
+depending on the environment being deployed to.
 
 Simply run:
 

@@ -1,3 +1,4 @@
+import 'package:environment_specific_config/config.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -48,10 +49,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Increment the count with a multiplier of ${Configuration.multiplier}',
             ),
             Text(
-              '$_counter',
+              '${_counter * Configuration.multiplier}',
               style: Theme.of(context).textTheme.headline4,
             ),
           ],

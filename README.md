@@ -4,13 +4,14 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This variation use simple code generation to generate a config file in a `lib/configurer.dart` script.
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+# to rely on the default 'multiplier' value, just do
+flutter pub run lib/configurer.dart
+# or to specify the 'multiplier' value, you can do
+flutter pub run lib/configurer.dart --multiplier 2
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# once 'lib/config.dart' is generated, you can then run the app
+flutter run
+```

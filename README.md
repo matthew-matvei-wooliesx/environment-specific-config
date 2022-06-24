@@ -15,3 +15,5 @@ flutter pub run lib/configurer.dart --multiplier 2
 # once 'lib/config.dart' is generated, you can then run the app
 flutter run
 ```
+
+This code generation strategy is taken from [here](https://binary-studio.com/2020/04/17/flutter-2/).
